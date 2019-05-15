@@ -39,13 +39,12 @@ int main(){
     ID_mapper();
 }
 
-
 int allocate_map(){
     
     // We take the size of the data structure we just created
     int size = sizeof(struct pid_table);
     
-    
+
     //calloc functions take 2 parameters, the value of pid and the table size.
     pid_table=(struct pid_table *)calloc((value_of_Pids+1), size);
     
