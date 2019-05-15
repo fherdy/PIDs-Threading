@@ -11,7 +11,6 @@ using namespace std;
 // const is used to initialize the variables so that its state wont be ultered
 const int TRUE=1, FALSE =0;
 
-
 // difference of the max and min pids being stored in a variable.
  int value_of_Pids = MAX_PID-MIN_PID;
 
